@@ -49,6 +49,14 @@ python3 scripts/chat_with_qinren.py --profile mom
 python3 tools/create_qinren.py /path/to/media_or_text --relationship 妈妈 --calls-user "宝宝" --name mom
 ```
 
+## 演示视频
+
+> 演示：从语音/视频语料 → 转写 → 蒸馏口吻画像 → 陪聊
+
+<video src="docs/assets/demo.mp4" controls muted playsinline></video>
+
+如果你的 GitHub 没有显示内嵌视频，可以直接点击下载观看：[`docs/assets/demo.mp4`](docs/assets/demo.mp4)
+
 ## 文档
 
 - `references/workflow.md`：完整工作流 + 高质量语料建议
