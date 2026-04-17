@@ -1,9 +1,9 @@
 ---
-name: qinren-companion
+name: comfort-kin
 description: "亲人陪伴对话 Skill（对齐 colleague-skill 结构）：支持导入音频/视频/文本语料，转写并蒸馏出亲人口吻画像（称呼、口头禅、关心方式、禁忌话题、安慰模板等），然后以该口吻陪伴式聊天。适用于：蒸馏亲人说话习惯、制作可长期陪聊的亲人角色、将多模态语料沉淀为可复用 profile。"
 ---
 
-# 亲人.skill（Qinren Companion）
+# 亲人.skill（Comfort Kin）
 
 本仓库/Skill 的目标：**把亲人蒸馏成可长期陪伴聊天的“口吻画像（profile）”**。
 

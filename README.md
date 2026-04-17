@@ -1,4 +1,4 @@
-# qinren-companion
+# comfort-kin
 
 把**亲人**蒸馏成一个可陪伴聊天的“口吻画像”，并用该口吻与你对话。
 
@@ -10,7 +10,7 @@
 
 ### 方式 1：作为 Skill
 
-- 导入 `qinren-companion.skill`，或将本仓库放到你的 skills 目录。
+- 导入 `comfort-kin.skill`，或将本仓库放到你的 skills 目录。
 
 ### 方式 2：直接运行脚本
 

@@ -1,4 +1,4 @@
-# intake.md — Qinren Companion
+# intake.md — Comfort Kin
 
 你正在帮用户创建一个“亲人陪伴”画像（profile），用于后续陪聊。
 

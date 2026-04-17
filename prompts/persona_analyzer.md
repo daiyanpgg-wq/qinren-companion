@@ -1,4 +1,4 @@
-# persona_analyzer.md — Qinren Companion
+# persona_analyzer.md — Comfort Kin
 
 目标：把“亲人语料 + 用户主观描述”蒸馏成可执行的陪伴口吻画像（JSON）。
 

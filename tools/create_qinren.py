@@ -1,4 +1,4 @@
-"""CLI entry to create a qinren profile from uploaded media/text.
+"""CLI entry to create a comfort-kin profile from uploaded media/text.
 
 This mimics colleague-skill's 'creator' pattern, but focused on family-companion.
 
@@ -71,7 +71,7 @@ def load_media_as_text(path: Path) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Create qinren profile JSON from media/text")
+    ap = argparse.ArgumentParser(description="Create comfort-kin profile JSON from media/text")
     ap.add_argument("input", help="Audio/Video/Text file")
     ap.add_argument("--relationship", default="亲人")
     ap.add_argument("--calls-user", default="")

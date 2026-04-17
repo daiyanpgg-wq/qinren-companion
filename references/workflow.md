@@ -1,4 +1,4 @@
-# Qinren Companion — 亲人口吻蒸馏与陪伴对话
+# Comfort Kin — 亲人口吻蒸馏与陪伴对话
 
 用来把**音频/视频/文本语料**蒸馏成一个“亲人”的口吻与陪伴方式，并用该口吻与你聊天。
 
@@ -35,7 +35,7 @@ python3 scripts/distill_persona.py /tmp/transcript.md \
 ### 3) 进入陪聊
 
 ```bash
-python3 scripts/chat_with_qinren.py --profile mom
+python3 scripts/chat_with_comfort-kin.py --profile mom
 ```
 
 命令：
@@ -47,7 +47,7 @@ python3 scripts/chat_with_qinren.py --profile mom
 1. **收集语料**：越真实越好（聊天语音、视频通话录音、长语音留言、家庭群语音等）。
 2. **转写**：用 `transcribe_media.py` 得到可读文本。
 3. **蒸馏**：用 `distill_persona.py` 生成画像 JSON。
-4. **陪聊**：用 `chat_with_qinren.py` 开聊；后续语料增加后，可重复蒸馏覆盖画像。
+4. **陪聊**：用 `chat_with_comfort-kin.py` 开聊；后续语料增加后，可重复蒸馏覆盖画像。
 
 ## 如何挑选和准备高质量语料
 
@@ -111,6 +111,6 @@ python3 scripts/chat_with_qinren.py --profile mom
 
 - `scripts/transcribe_media.py`：音频/视频 → 转写 Markdown
 - `scripts/distill_persona.py`：转写/文本 → 画像 JSON
-- `scripts/chat_with_qinren.py`：加载画像 → 陪聊 CLI
+- `scripts/chat_with_comfort-kin.py`：加载画像 → 陪聊 CLI
 - `profiles/`：蒸馏输出目录
 

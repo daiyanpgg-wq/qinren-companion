@@ -1,4 +1,4 @@
-"""Common utilities for qinren-companion scripts."""
+"""Common utilities for comfort-kin scripts."""
 
 from __future__ import annotations
 

@@ -1,4 +1,4 @@
-"""Distill a 'qinren persona' profile from text/transcripts.
+"""Distill a 'comfort-kin persona' profile from text/transcripts.
 
 Input can be:
 - Plain text file
@@ -52,7 +52,7 @@ def read_text(path: Path) -> str:
 
 
 def main() -> None:
-    ap = argparse.ArgumentParser(description="Distill qinren persona JSON profile from text")
+    ap = argparse.ArgumentParser(description="Distill comfort-kin persona JSON profile from text")
     ap.add_argument("input", help="Text/Markdown transcript file")
     ap.add_argument("--relationship", default="亲人", help="e.g., 妈妈/爸爸/外婆/哥哥")
     ap.add_argument("--calls-user", default="", help="How the persona calls the user")
